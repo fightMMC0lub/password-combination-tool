@@ -17,4 +17,16 @@ To get started, you can either download the repository or clone it to your local
 
    ```bash
    git clone https://github.com/fightMMC0lub/password-combination-tool.git
+---
+
+## Installation
+
+To use the **Password Combination Tool**, follow these steps to install the required dependencies and set up the tool on your machine.
+
+### 1. Install Python (if not already installed)
+
+Make sure you have Python 3 installed on your system. You can verify the installation by running:
+
+```bash
+python --version
 
