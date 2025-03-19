@@ -3,24 +3,22 @@ name: Python application
 on: 
   push:
     branches:
-      - main
+      - main  # or the branch you're working with
 
 jobs:
   test:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v2  # This step checks out the code
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.x'
-
+          python-version: '3.8'  # Update to the Python version you need
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
-
+          pip install -r requirements.txt  # Ensure requirements.txt exists
       - name: Run tests
         run: |
-          python -m unittest discover
+          pytest  # Run pytest instead of unittest
