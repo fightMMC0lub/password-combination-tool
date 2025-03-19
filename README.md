@@ -1,6 +1,8 @@
 # Password Combination Tool
 
 **Password Combination Tool** is a Python-based utility that helps you calculate the number of possible combinations for a password based on its length and selected character set. You can customize the calculation by including or excluding uppercase letters, digits, and special characters. This tool is perfect for understanding password strength and estimating the number of possible combinations for various password configurations.
+## 🔥 Tool Preview
+![Password Combination Tool](https://github.com/user-attachments/assets/03d39b50-e9a8-4ba4-9659-ee7d12d725c1 "Password Combination Tool Interface")
 
 ## Key Features:
 - Calculate password strength by estimating possible combinations.
