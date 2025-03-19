@@ -1,11 +1,20 @@
-# password-combination-tool
-This Python tool helps you calculate the number of possible combinations for a password based on its length and the character set you choose. It lets you include or exclude uppercase letters, digits, and special characters to customize the calculation. Great for understanding password strength and the possible combinations!
+# Password Combination Tool
+
+**Password Combination Tool** is a Python-based utility that helps you calculate the number of possible combinations for a password based on its length and selected character set. You can customize the calculation by including or excluding uppercase letters, digits, and special characters. This tool is perfect for understanding password strength and estimating the number of possible combinations for various password configurations.
+
+## Key Features:
+- Calculate password strength by estimating possible combinations.
+- Choose from different character sets: lowercase, uppercase, numbers, and special characters.
+- Estimate the complexity of a password and its resistance to brute-force attacks.
 
 ## How to Use
 
-1. Download or clone the repository.
-2. Install Python 3 (if not already installed).
-3. Run the script by executing the following command:
+### 1. Download or Clone the Repository
+
+To get started, you can either download the repository or clone it to your local machine.
+
+- **Clone the repository:**
 
    ```bash
-   python password_calculator.py
+   git clone https://github.com/fightMMC0lub/password-combination-tool.git
+
